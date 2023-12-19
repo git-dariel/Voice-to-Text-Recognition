@@ -2,3 +2,5 @@
 
 Converts spoken words to written text, enabling hands-free writing,
 transcription, accessibility, and increased productivity.
+
+![Alt text](image.png)
