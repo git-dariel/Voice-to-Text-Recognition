@@ -37,7 +37,7 @@ nav {
 }
 
 span {
-  color: #F5B301;
+  color: #f5b301;
 }
 
 nav ul li {
@@ -56,7 +56,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #FED053;
+  color: #fed053;
   transition: 0.3s;
 }
 
@@ -65,7 +65,7 @@ nav ul li a:hover {
   text-align: center;
   margin-top: 20px;
   font-size: 45px;
-  color: #FED053;
+  color: #fed053;
 }
 
 .hometext h2 {
@@ -168,7 +168,7 @@ button:disabled {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
   font-size: 30px;
-  color: #FED053;
+  color: #fed053;
 }
 
 .vc {
@@ -230,11 +230,11 @@ button.clear:disabled {
   cursor: not-allowed;
 }
 
-.image .vector {
-  margin-left: 550px;
-  width: 250px;
-  height: 250px;
-  margin-top: 50px;
+.image {
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container .item-1 {
@@ -265,10 +265,10 @@ button.clear:disabled {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-top: 5%;
   font-size: 30px;
-  color: #FED053;
+  color: #fed053;
 }
 
-.developer .item-1 img{
+.developer .item-1 img {
   margin-top: 20px;
   margin-left: 10px;
   height: 120px;
@@ -276,21 +276,21 @@ button.clear:disabled {
   border-radius: 60px;
 }
 
-.developer .item-1 .title{
+.developer .item-1 .title {
   font-size: 14px;
   font-family: monospace;
   margin-top: -120px;
   margin-left: 150px;
   color: grey;
 }
-.developer .item-1 .desc{
+.developer .item-1 .desc {
   font-size: 12px;
   font-family: monospace;
   color: black;
   margin-top: 10px;
   margin-left: 150px;
 }
-.developer .item-1 .name{
+.developer .item-1 .name {
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
   color: black;
@@ -299,7 +299,7 @@ button.clear:disabled {
   font-weight: bolder;
 }
 
-.developer .item-2 img{
+.developer .item-2 img {
   margin-top: 20px;
   margin-left: 10px;
   height: 120px;
@@ -307,21 +307,21 @@ button.clear:disabled {
   border-radius: 60px;
 }
 
-.developer .item-2 .title{
+.developer .item-2 .title {
   font-size: 14px;
   font-family: monospace;
   margin-top: -120px;
   margin-left: 150px;
   color: grey;
 }
-.developer .item-2 .desc{
+.developer .item-2 .desc {
   font-size: 12px;
   font-family: monospace;
   color: black;
   margin-top: 10px;
   margin-left: 150px;
 }
-.developer .item-2 .name{
+.developer .item-2 .name {
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
   color: black;
@@ -330,73 +330,73 @@ button.clear:disabled {
   font-weight: bolder;
 }
 
-.container .item-1 .atag{
+.container .item-1 .atag {
   display: block;
   margin-top: -13px;
   margin-left: 135px;
 }
 
-.container .item-1 .fb{
+.container .item-1 .fb {
   width: 30px;
   height: 30px;
 }
 
-.container .item-1 .atag2{
+.container .item-1 .atag2 {
   display: block;
   margin-top: -53.3px;
   margin-left: 180px;
 }
 
-.container .item-1 .ins{
+.container .item-1 .ins {
   width: 30px;
   height: 30px;
 }
 
-.container .item-1 .atag3{
+.container .item-1 .atag3 {
   display: block;
   margin-top: -54px;
   margin-left: 230px;
 }
 
-.container .item-1 .github{
+.container .item-1 .github {
   width: 30px;
   height: 30px;
 }
 
-.container .item-2 .atag{
+.container .item-2 .atag {
   display: block;
   margin-top: -6px;
   margin-left: 135px;
 }
 
-.container .item-2 .fb{
+.container .item-2 .fb {
   width: 30px;
   height: 30px;
 }
 
-.container .item-2 .atag2{
+.container .item-2 .atag2 {
   display: block;
   margin-top: -53.3px;
   margin-left: 180px;
 }
 
-.container .item-2 .ins{
+.container .item-2 .ins {
   width: 30px;
   height: 30px;
 }
 
-.container .item-2 .atag3{
+.container .item-2 .atag3 {
   display: block;
   margin-top: -54px;
   margin-left: 230px;
 }
 
-.container .item-2 .github{
+.container .item-2 .github {
   width: 30px;
   height: 30px;
 }
 
-footer{
+footer {
   color: white;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -404,7 +404,7 @@ footer{
   padding: 20px 0;
 }
 
-hr{
+hr {
   border: none;
   background: grey;
   height: 1px;
